@@ -3,9 +3,9 @@ pipeline {
 
     environment {
         // השתמש ב-ID או בתיאור שהגדרת עבור ה-AWS Access Key ID
-        AWS_ACCESS_KEY_ID = credentials('aws-access-key-id')
+        credentials('cdID')
         // השתמש ב-ID או בתיאור שהגדרת עבור ה-AWS Secret Access Key
-        AWS_SECRET_ACCESS_KEY = credentials('aws-secret-access-key')
+        credentials('cdID')
     }
 
     stages {
